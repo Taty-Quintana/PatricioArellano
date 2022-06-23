@@ -1,0 +1,109 @@
+.navbar{
+    background-color: black !important;
+    box-shadow: 0px 2px brown !important;
+}
+
+.navbar-brand{
+color: aliceblue !important;
+}
+
+.navbar-brand:hover{
+    color: brown !important;
+}
+
+.nav-item a:hover{
+    color:brown !important;
+}
+
+.nav-item a{
+    color: aliceblue !important;
+}
+
+.negro{
+    background-color: black !important;
+}
+
+.gris{
+    background-color:rgb(236, 235, 235) !important;
+}
+
+.blanco {
+    color: black;
+    background-color:white !important;
+}
+
+.btn:hover{
+    color: brown !important;
+}
+#galeria{
+    background-color: rgb(236, 235, 235) !important;
+}
+
+#galeria img:hover{
+    border: 5px solid white;
+}
+
+.card:hover:hover{
+    transform: scale(1.1,1.1)
+}
+
+.card h5 { 
+    color: brown;
+}
+
+.card-title:hover{
+ color: black !important;
+
+}
+ .card-body:hover{
+    color: black !important;
+ }
+
+a{
+    text-decoration: none;
+    color:brown    
+}
+
+.lightgrey{
+    background-color: lightgrey !important;
+}
+
+.shadow {
+    box-shadow: 0px -2px brown !important;
+}
+
+.shadowcard{
+    box-shadow: 10px 5px 5px darkgrey !important;
+}
+.form-control{
+    border-color: black;
+}
+
+.form-control:hover{
+    border-color: brown;
+}
+
+.form-control:focus{
+    box-shadow: 10px 5px 5px black !important;
+    border-color: brown !important;
+  }
+
+  .animacion {
+	animation-duration: 5s;
+	animation-name: animacion;
+	animation-iteration-count: 5s;
+  }
+@keyframes animacion{
+	from {
+		-webkit-transform: rotate(0deg);
+        transform: rotateY(0deg);
+	}
+  50%{
+		-webkit-transform: rotate(180deg);
+        transform: rotateY(180deg);
+	} 
+	to {
+		-webkit-transform: rotate(360deg);
+        transform: rotateY(360deg);
+		}
+    }
